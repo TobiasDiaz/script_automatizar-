@@ -1,0 +1,194 @@
+Ejecutado el: 2024-11-14 22:33:50
+
+Dataset original cargado correctamente:
+
+   RowNumber  CustomerId   Surname  CreditScore  ... HasCrCard IsActiveMember  EstimatedSalary  Exited
+0          1    15634602  Hargrave          619  ...       1.0            1.0        101348.88       1
+1          2    15647311      Hill          608  ...       0.0            1.0        112542.58       0
+2          3    15619304      Onio          502  ...       1.0            0.0        113931.57       1
+3          4    15701354      Boni          699  ...       0.0            0.0         93826.63       0
+4          5    15737888  Mitchell          850  ...       NaN            1.0         79084.10       0
+
+[5 rows x 14 columns]
+
+
+Dataset normalizado (Z-Score):
+
+   RowNumber  CustomerId   Surname  CreditScore  ... HasCrCard IsActiveMember  EstimatedSalary    Exited
+0  -1.731791   -0.783123  Hargrave    -0.326449  ...  0.646014       0.970488         0.022006  1.976705
+1  -1.731445   -0.606442      Hill    -0.440248  ... -1.547800       0.970488         0.216652 -0.505842
+2  -1.731099   -0.995797      Onio    -1.536857  ...  0.646014      -1.030306         0.240805  1.976705
+3  -1.730752    0.144867      Boni     0.501180  ... -1.547800      -1.030306        -0.108797 -0.505842
+4  -1.730406    0.652765  Mitchell     2.063331  ...       NaN       0.970488        -0.365152 -0.505842
+
+[5 rows x 14 columns]
+
+
+Generando los gráficos de los atributos...
+Columna: RowNumber
+Valor Mínimo: 1
+Valor Máximo: 10000
+Rango: 9999
+-----------------------------
+Columna: CustomerId
+Valor Mínimo: 15565701
+Valor Máximo: 15815690
+Rango: 249989
+-----------------------------
+Columna: CreditScore
+Valor Mínimo: 350
+Valor Máximo: 850
+Rango: 500
+-----------------------------
+Columna: Age
+Valor Mínimo: 18.0
+Valor Máximo: 92.0
+Rango: 74.0
+-----------------------------
+Columna: Tenure
+Valor Mínimo: 0
+Valor Máximo: 10
+Rango: 10
+-----------------------------
+Columna: Balance
+Valor Mínimo: 0.0
+Valor Máximo: 250898.09
+Rango: 250898.09
+-----------------------------
+Columna: NumOfProducts
+Valor Mínimo: 1
+Valor Máximo: 4
+Rango: 3
+-----------------------------
+Columna: HasCrCard
+Valor Mínimo: 0.0
+Valor Máximo: 1.0
+Rango: 1.0
+-----------------------------
+Columna: IsActiveMember
+Valor Mínimo: 0.0
+Valor Máximo: 1.0
+Rango: 1.0
+-----------------------------
+Columna: EstimatedSalary
+Valor Mínimo: 11.58
+Valor Máximo: 199992.48
+Rango: 199980.90000000002
+-----------------------------
+Columna: Exited
+Valor Mínimo: 0
+Valor Máximo: 1
+Rango: 1
+-----------------------------
+
+DataFrame Normalizado con Min-Max [0, 1]:
+
+   RowNumber  CustomerId   Surname  CreditScore  ... HasCrCard IsActiveMember  EstimatedSalary  Exited
+0     0.0000    0.275616  Hargrave        0.538  ...       1.0            1.0         0.506735     1.0
+1     0.0001    0.326454      Hill        0.516  ...       0.0            1.0         0.562709     0.0
+2     0.0002    0.214421      Onio        0.304  ...       1.0            0.0         0.569654     1.0
+3     0.0003    0.542636      Boni        0.698  ...       0.0            0.0         0.469120     0.0
+4     0.0004    0.688778  Mitchell        1.000  ...       NaN            1.0         0.395400     0.0
+
+[5 rows x 14 columns]
+
+
+Ejecución completada.
+
+Ejecutado el: 2024-11-14 22:34:11
+
+Dataset original cargado correctamente:
+
+   RowNumber  CustomerId   Surname  CreditScore  ... HasCrCard IsActiveMember  EstimatedSalary  Exited
+0          1    15634602  Hargrave          619  ...       1.0            1.0        101348.88       1
+1          2    15647311      Hill          608  ...       0.0            1.0        112542.58       0
+2          3    15619304      Onio          502  ...       1.0            0.0        113931.57       1
+3          4    15701354      Boni          699  ...       0.0            0.0         93826.63       0
+4          5    15737888  Mitchell          850  ...       NaN            1.0         79084.10       0
+
+[5 rows x 14 columns]
+
+
+Dataset normalizado (Z-Score):
+
+   RowNumber  CustomerId   Surname  CreditScore  ... HasCrCard IsActiveMember  EstimatedSalary    Exited
+0  -1.731791   -0.783123  Hargrave    -0.326449  ...  0.646014       0.970488         0.022006  1.976705
+1  -1.731445   -0.606442      Hill    -0.440248  ... -1.547800       0.970488         0.216652 -0.505842
+2  -1.731099   -0.995797      Onio    -1.536857  ...  0.646014      -1.030306         0.240805  1.976705
+3  -1.730752    0.144867      Boni     0.501180  ... -1.547800      -1.030306        -0.108797 -0.505842
+4  -1.730406    0.652765  Mitchell     2.063331  ...       NaN       0.970488        -0.365152 -0.505842
+
+[5 rows x 14 columns]
+
+
+Generando los gráficos de los atributos...
+Columna: RowNumber
+Valor Mínimo: 1
+Valor Máximo: 10000
+Rango: 9999
+-----------------------------
+Columna: CustomerId
+Valor Mínimo: 15565701
+Valor Máximo: 15815690
+Rango: 249989
+-----------------------------
+Columna: CreditScore
+Valor Mínimo: 350
+Valor Máximo: 850
+Rango: 500
+-----------------------------
+Columna: Age
+Valor Mínimo: 18.0
+Valor Máximo: 92.0
+Rango: 74.0
+-----------------------------
+Columna: Tenure
+Valor Mínimo: 0
+Valor Máximo: 10
+Rango: 10
+-----------------------------
+Columna: Balance
+Valor Mínimo: 0.0
+Valor Máximo: 250898.09
+Rango: 250898.09
+-----------------------------
+Columna: NumOfProducts
+Valor Mínimo: 1
+Valor Máximo: 4
+Rango: 3
+-----------------------------
+Columna: HasCrCard
+Valor Mínimo: 0.0
+Valor Máximo: 1.0
+Rango: 1.0
+-----------------------------
+Columna: IsActiveMember
+Valor Mínimo: 0.0
+Valor Máximo: 1.0
+Rango: 1.0
+-----------------------------
+Columna: EstimatedSalary
+Valor Mínimo: 11.58
+Valor Máximo: 199992.48
+Rango: 199980.90000000002
+-----------------------------
+Columna: Exited
+Valor Mínimo: 0
+Valor Máximo: 1
+Rango: 1
+-----------------------------
+
+DataFrame Normalizado con Min-Max [0, 1]:
+
+   RowNumber  CustomerId   Surname  CreditScore  ... HasCrCard IsActiveMember  EstimatedSalary  Exited
+0     0.0000    0.275616  Hargrave        0.538  ...       1.0            1.0         0.506735     1.0
+1     0.0001    0.326454      Hill        0.516  ...       0.0            1.0         0.562709     0.0
+2     0.0002    0.214421      Onio        0.304  ...       1.0            0.0         0.569654     1.0
+3     0.0003    0.542636      Boni        0.698  ...       0.0            0.0         0.469120     0.0
+4     0.0004    0.688778  Mitchell        1.000  ...       NaN            1.0         0.395400     0.0
+
+[5 rows x 14 columns]
+
+
+Ejecución completada.
+
